@@ -1,0 +1,17 @@
+* {
+    background-color: rgb(17, 141, 218);
+}
+
+#wrap{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul{
+    text-align: center;
+    list-style-type: none;
+}
+li::first-letter{
+    text-transform: uppercase;
+    font-size: 24px;
+}

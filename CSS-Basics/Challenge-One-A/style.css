@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(168, 133, 133);
+    margin: auto;
+}
+
+div {
+    border: dashed 5px black;
+    background-color: beige;
+    margin: 0px 150px;
+}
+
+p{
+margin: 10px 20px;
+margin-top: 30px;
+}
+
+.hr-dashed{
+    border-top: dashed 5px;
+    margin-left: 0;
+}
+
+h1, ul {
+    text-align: center;
+    font-style: italic;
+}
+h1{
+    margin: 0px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+}
+ul{
+    text-align: center;
+    list-style-type: none;
+}
+.copyright{
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+li::first-letter{
+    text-transform: capitalize;
+    font-size: 30px;
+}
