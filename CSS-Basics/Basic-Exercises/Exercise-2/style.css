@@ -1,0 +1,17 @@
+
+.pink-class{
+    background-color:rgb(247, 207, 214);
+    font-family: Verdana, DejaVu sans-serif;
+}
+.cool-class{
+    font-size: 24px;
+}
+#id-one{
+    color:rgb(47, 47, 250);
+    font-size: 36px;
+}
+#id-another{
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(108, 255, 128);
+}
