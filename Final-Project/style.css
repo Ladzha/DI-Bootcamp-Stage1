@@ -6,10 +6,24 @@ body{
     text-align: center;   
 }
 
-header nav, .book-card, table{
+header nav, .book-card {
     background-color: white;
     box-shadow: 4px 3px 3px #d6ccc2;
 }
+
+/* Primer */
+header nav {
+    background-color: #a79685
+}
+
+nav a{
+    color: #ffffff;
+}
+
+nav a:visited{
+    color:#d7cec4;
+}
+/* fin primer */
 
 header{
     margin-left: auto;
@@ -17,13 +31,12 @@ header{
 }
 
 header h1{
-    font-size: 3em;
+    font-size: 4em;
     padding: 30px;
-    /* padding-left: 0px;
-    padding-right: 0px; */
     padding-bottom: 20px;
     margin-bottom: 0px;
     margin-top: 0px;
+    font-family: 'Great Vibes', cursive;
 }
 
 h2{
@@ -48,13 +61,10 @@ nav li:first-of-type{
     padding-left: 0px;
 }
 
-nav li:first-of-type{
-    margin-left: 0px;
-    padding-left: 0px;
-}
+/* Article */
 
 img{
-    width: 500px;
+    width: 100%;
     margin-left: auto;
     margin-right:auto;
 }
@@ -62,11 +72,11 @@ img{
 .about{
     align-content: center;
     margin-top: 10px;
+    margin-bottom: 20px;
     padding: 20px;
     padding-bottom: 30px;
     font-size: 1.4em;
-    background-color: rgb(255, 255, 255);
-    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255); 
 }
 article{
     display: flex;
@@ -96,7 +106,6 @@ article{
 }
 
 /* Link style  */
-
 a{
     font-size: 1.3em;
     color: #382818;
@@ -105,11 +114,11 @@ a{
 }
 
 a:visited{
-    color:#695a4b
+    color:#695a4b;
 }
 
 a:hover{
-    color:#8c5319
+    color:#845c35;
 }
 
 /* Book-cards area */
@@ -151,17 +160,53 @@ a:hover{
     margin-bottom:10px;
 }
 
+/* Awards */
+
 table{
-    font-size: 1.1em;
-    text-align: left;
+    width: 70%;
+    font-size: 1.2em;
+    text-align: center;
     margin: auto;
-    padding: 30px;
-    margin-bottom: 70px;
+    padding: 20px;
+    padding-top: 0px;
+    margin-bottom: 70px;  
+}
+
+th{
+    font-size: 1.4em;
+    background-color: #d6ccc2;
+    padding: 10px;
+    font-weight: bold;
+    border: 1px dotted;  
 }
 
 td{
-margin: 10px;
-padding: 10px;
+    margin: 0px;
+    padding: 20px;
+    border: 1px dotted;
+}
+
+table td:nth-child(1){
+    background-color: rgba(214, 204, 194, 0.7);
+    font-weight: bold;
+    font-size: 1.1em;
+    
+}
+
+table td:nth-child(2){
+    background-color: rgba(214, 204, 194, 0.5);
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+table td:nth-child(3){
+    background-color: rgba(214, 204, 194, 0.3);
+}
+
+table td:nth-child(4){
+    background-color: rgba(214, 204, 194, 0.1);
+    font-style: italic;
 }
 
 footer{
