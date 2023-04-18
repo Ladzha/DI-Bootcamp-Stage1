@@ -1,0 +1,140 @@
+
+body{
+    margin: 0px;
+    background-color: #f5ebe0;
+    color: #382818;
+    text-align: center;
+}
+
+header nav, .book-card, table{
+    background-color: white;
+    box-shadow: 4px 3px 3px #d6ccc2;
+}
+
+header h1{
+    font-size: 3em;
+    padding: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 2em;
+}
+
+/* Menu */
+
+nav {
+    margin: 0px;
+    padding: 10px;
+}
+nav li {
+    display: inline;
+    padding: 20px;
+}
+
+img{
+    width: auto;
+}
+article{
+    margin: 100px;
+    padding: 50px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.biography+ul{
+    text-align: left;
+    font-size: 1.2em;
+    line-height: 1.4;
+}
+ 
+.biography+ul li{    
+    margin-bottom: 20px;
+}
+.biography .year{
+
+}
+.about{
+    align-content: center;
+    margin-top: 10px;
+    font-size: 1.4em;
+    background-color: red;
+}
+
+/* Link style  */
+
+a{
+    font-size: 1.3em;
+    color: #382818;
+    text-decoration-line: none;
+    font-weight: bold;
+}
+
+a:visited{
+    color:#695a4b
+}
+
+a:hover{
+    color:#8c5319
+}
+
+/* Book-cards area */
+
+.container{
+    margin: 70px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+}
+
+.book-card{
+    width: 200px;
+    margin: 20px;
+    transition: all 1s;
+}
+
+.book-card:hover {
+    transform: scale(1.1);
+}
+
+.book-year{
+    font-style: italic;
+}
+
+.book-card img{
+    width: 200px;
+}
+
+.book-card ul{
+    list-style-type: none;
+    padding-inline-start: 0px; 
+    margin: 10px; 
+}
+
+.book-card li{
+    line-height: 1.2;
+    margin-bottom:10px;
+}
+
+table{
+    font-size: 1.1em;
+    text-align: left;
+    margin: auto;
+    padding: 30px;
+    margin-bottom: 70px;
+}
+
+td{
+margin: 10px;
+padding: 10px;
+}
+
+footer{
+    background-color: #d6ccc2;
+    font-size: 1.5em;
+    padding: 30px;
+}
