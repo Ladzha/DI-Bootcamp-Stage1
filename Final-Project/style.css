@@ -3,7 +3,7 @@ body{
     margin: 0px;
     background-color: #f5ebe0;
     color: #382818;
-    text-align: center;
+    text-align: center;   
 }
 
 header nav, .book-card, table{
@@ -11,9 +11,16 @@ header nav, .book-card, table{
     box-shadow: 4px 3px 3px #d6ccc2;
 }
 
+header{
+    margin-left: auto;
+    margin-right:auto;
+}
+
 header h1{
     font-size: 3em;
     padding: 30px;
+    /* padding-left: 0px;
+    padding-right: 0px; */
     padding-bottom: 20px;
     margin-bottom: 0px;
     margin-top: 0px;
@@ -29,39 +36,63 @@ h2{
 nav {
     margin: 0px;
     padding: 10px;
+    padding-left: 0px;
 }
 nav li {
     display: inline;
-    padding: 20px;
+    padding: 20px;     
+}
+
+nav li:first-of-type{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+nav li:first-of-type{
+    margin-left: 0px;
+    padding-left: 0px;
 }
 
 img{
-    width: auto;
+    width: 500px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.about{
+    align-content: center;
+    margin-top: 10px;
+    padding: 20px;
+    padding-bottom: 30px;
+    font-size: 1.4em;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
 }
 article{
-    margin: 100px;
-    padding: 50px;
-    margin-top: 0px;
-    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    line-height: 1.4;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 70px;
 }
 
 .biography+ul{
     text-align: left;
     font-size: 1.2em;
     line-height: 1.4;
+    padding-left: 0px;
 }
  
 .biography+ul li{    
     margin-bottom: 20px;
+    list-style-type:none;
 }
-.biography .year{
 
-}
-.about{
-    align-content: center;
-    margin-top: 10px;
-    font-size: 1.4em;
-    background-color: red;
+.year{
+    font-size: 1.2em;
+    font-weight: bold;
 }
 
 /* Link style  */
