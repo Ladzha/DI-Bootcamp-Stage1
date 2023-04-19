@@ -11,7 +11,7 @@ header nav, .book-card {
     box-shadow: 4px 3px 3px #d6ccc2;
 }
 
-/* Primer */
+/* redesign nav  */
 header nav {
     background-color: #a79685
 }
@@ -23,7 +23,7 @@ nav a{
 nav a:visited{
     color:#d7cec4;
 }
-/* fin primer */
+/* redesign nav */
 
 header{
     margin-left: auto;
@@ -177,7 +177,8 @@ th{
     background-color: #d6ccc2;
     padding: 10px;
     font-weight: bold;
-    border: 1px dotted;  
+    border: 1px dotted;
+      
 }
 
 td{

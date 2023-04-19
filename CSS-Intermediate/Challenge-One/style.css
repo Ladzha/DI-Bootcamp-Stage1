@@ -14,9 +14,11 @@ body {
 
 #nav{
     background-color: rgb(139, 180, 227);
-    /* display: inline-block; */
-    /* vertical-align: top; */
     width: 25%; 
+}
+
+#nav ul{
+   margin-left: 20px;
 }
 
 #nav li{
@@ -26,8 +28,6 @@ body {
 #content{
     background-color: rgb(147, 153, 224);
     padding: 0px 20px;
-    /* display: inline-block; */
-    /* vertical-align: top; */
     width: 75%;  
 }
 
@@ -36,5 +36,5 @@ body {
 }
 
 .copyright {
-    position: absolute;  
+    background-color: rgb(219, 146, 0);
 }
